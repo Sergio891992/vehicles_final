@@ -7,6 +7,7 @@ car_data = pd.read_csv(r'C:\Users\Sergio\Desktop\Tripleten\vehicles_final\vehicl
 st.title('App gráficas de autos')
 
 build_histogram = st.checkbox('Construir un histograma')
+hist_button = st.button('Construir un histograma')
 
 if hist_button:
     st.write('Creación de un histograma para el conjunto de datos de auncios de venta de coches')
