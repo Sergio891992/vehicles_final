@@ -4,7 +4,9 @@ import plotly.express as px
 
 car_data = pd.read_csv(r'C:\Users\Sergio\Desktop\Tripleten\vehicles_final\vehicles_us.csv')
 
-hist_button = st.button('Construir histograma')
+st.title('App gráficas de autos')
+
+build_histogram = st.checkbox('Construir un histograma')
 
 if hist_button:
     st.write('Creación de un histograma para el conjunto de datos de auncios de venta de coches')
